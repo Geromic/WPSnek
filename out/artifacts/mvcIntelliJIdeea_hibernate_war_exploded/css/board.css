@@ -1,0 +1,40 @@
+.clear {
+    background: slategrey;
+    color: slategrey;
+    width: 10px;
+    height: 10px;
+}
+
+.snake {
+    background: cornflowerblue;
+    color: cornflowerblue;
+    width: 10px;
+    height: 10px;
+}
+
+.food {
+    color: tomato;
+    background: tomato;
+    width: 10px;
+    height: 10px;
+}
+
+.obstacle {
+    color: black;
+    background: black;
+    width: 10px;
+    height: 10px;
+}
+
+.snakeBoard {
+    width: 50%;
+    height: 50%;
+}
+
+.snakeBoard td{
+    width: 5%;
+    height: 10%;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
